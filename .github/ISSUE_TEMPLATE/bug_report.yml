@@ -1,0 +1,83 @@
+name: 🐞 Bug report
+description: Something in the Mijuru Wallpapers extension doesn't work as expected. Please write in English — a machine translation from your language is perfectly fine.
+title: "[Bug]: "
+labels: ["bug", "app:extension", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem! Please check the [Troubleshooting section](https://github.com/mijuru-dev/wallpapers-browser-extension#troubleshooting) and [existing issues](https://github.com/mijuru-dev/wallpapers-browser-extension/issues) first.
+        Please write in **English** — a machine translation from your language is perfectly fine.
+        To report a wallpaper (copyright or inappropriate content), use **Report image** on its page on mijuru.com instead.
+  - type: input
+    id: ext_version
+    attributes:
+      label: Extension version
+      description: Find it in your browser's extensions page (e.g. chrome://extensions) next to Mijuru Wallpapers.
+      placeholder: "1.4.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Opera
+        - Other (please specify below)
+    validations:
+      required: true
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser version
+      description: Menu → Help → About.
+      placeholder: "e.g. Chrome 131, Firefox 145"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g. Windows 11, macOS 15, Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: other_extensions
+    attributes:
+      label: Other New Tab extensions installed
+      description: Other extensions that change the New Tab page can conflict with Mijuru. List them, or write "none".
+      placeholder: "none"
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a new tab
+        2. Click ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Drag and drop images or videos here. Please hide any personal information.
+    validations:
+      required: false

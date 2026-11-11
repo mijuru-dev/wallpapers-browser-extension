@@ -1,0 +1,12 @@
+title: Mijuru Wallpapers — browser extension
+description: A fresh 4K wallpaper on every new tab. Free, no ads, no account.
+theme: jekyll-theme-minimal
+lang: en
+exclude:
+  - .github
+
+url: https://mijuru-dev.github.io
+baseurl: /wallpapers-browser-extension
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

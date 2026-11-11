@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+- name: 💡 Idea or suggestion
+  url: https://github.com/orgs/mijuru-dev/discussions/categories/ideas
+  about: Share ideas and vote for others in GitHub Discussions. Issues are for problems only.
+- name: ❓ Question
+  url: https://github.com/orgs/mijuru-dev/discussions/categories/q-a
+  about: Ask how something works in GitHub Discussions (Q&A).
+- name: ✉️ Support by email — m@mijuru.dev
+  url: https://mijuru.com/browser-extension
+  about: Prefer email? Write to m@mijuru.dev. The extension's page on mijuru.com also has an FAQ.
+- name: 🔒 Privacy policy
+  url: https://mijuru.com/browser-extension-privacy-policy
+  about: What the extension stores and which requests it makes.
+- name: 🚩 Report a wallpaper
+  url: https://mijuru.com
+  about: For copyright or inappropriate content, open the wallpaper's page on mijuru.com and use "Report image".
